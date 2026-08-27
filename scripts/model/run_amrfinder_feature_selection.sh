@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# BAMPS-ML: AMRFinder feature selection for carbapenem MIC prediction
-# Run from the BAMPS-ML repository root after AMRFinder feature extraction is complete.
+# BAMPS: AMRFinder feature selection for carbapenem MIC prediction
+# Run from the BAMPS repository root after AMRFinder feature extraction is complete.
 
 AMR_TABLE=${AMR_TABLE:-outputs/amrfinder/Russia280/amr_presence_absence.norm.tsv}
 MIC_FILE=${MIC_FILE:-data/mic_values.norm.csv}

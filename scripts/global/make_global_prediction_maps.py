@@ -2,7 +2,7 @@
 """
 make_global_prediction_maps.py
 
-Builds a true-vector SVG figure from BAMPS-ML global prediction outputs.
+Builds a true-vector SVG figure from BAMPS global prediction outputs.
 
 Panels:
 A. Global predicted high-MIC burden map

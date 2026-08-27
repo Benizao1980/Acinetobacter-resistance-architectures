@@ -6,7 +6,7 @@ Filter a locus-level GWAS matrix to the top-k loci, using either:
   1) an existing ranking table, or
   2) raw IMI / MER GWAS hit tables collapsed to loci via a locus summary table.
 
-This is designed for BAMPS-ML workflows where loci have already been defined
+This is designed for BAMPS workflows where loci have already been defined
 by collapsing unitig hits to locus-level features.
 
 Examples

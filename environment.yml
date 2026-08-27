@@ -1,0 +1,22 @@
+name: acinetobacter-resistance-architectures
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - biopython
+  - pyyaml
+  - joblib
+  - xgboost
+  - lightgbm
+  - amrfinderplus
+  - pyseer
+  - pip
+# BactDating and SkyGrowth are R packages and should be recorded separately
+# with exact versions in software_versions.tsv when the manuscript release is locked.

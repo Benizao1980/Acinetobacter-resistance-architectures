@@ -1,0 +1,7 @@
+software	version	status	notes
+BAMPS	0.1.0	locked for repository release	Generic modelling toolkit
+Python	3.11	recommended	See environment.yml
+AMRFinderPlus	TO_LOCK	pending	Record executable and database version/date used for manuscript
+pyseer	TO_LOCK	pending	Record exact GWAS version used
+BactDating	TO_LOCK	pending	Record exact R package version and MCMC settings
+SkyGrowth	TO_LOCK	pending	Record exact R package version and settings

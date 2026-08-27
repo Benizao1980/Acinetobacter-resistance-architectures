@@ -34,7 +34,6 @@ IC_FP = pick_path([
 
 MICRO_FP = pick_path([
     "data/FullMicroreactWyr-with-Russian-Metadata_IC_inferred.csv",
-    "/mnt/data/FullMicroreactWyr-with-Russian-Metadata_IC_inferred.csv",
 ])
 
 OUTDIR = Path("outputs/figures")

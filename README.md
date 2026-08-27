@@ -2,7 +2,7 @@
 
 Reproducible analysis code accompanying the study of recurrent carbapenem Resistance Architectures in *Acinetobacter baumannii*.
 
-This repository contains **project-specific** analysis glue, GWAS processing, validation, global prediction, genomic-context analysis and figure-generation scripts. The reusable modelling framework is maintained separately as BAMPS (Bacterial AMR Modelling and Prediction Suite).
+This repository contains **project-specific** analysis glue, GWAS processing, validation, global prediction, genomic-context analysis and figure-generation scripts. The reusable modelling framework is maintained separately as [BAMPS](https://github.com/Benizao1980/BAMPS) (Bacterial AMR Modelling and Prediction Suite).
 
 ## Data scope
 
@@ -34,8 +34,14 @@ ISAba1 whole-genome detection is kept separate from physical ISAba1–blaOXA lin
 
 ## Reproducibility
 
-See `docs/workflow.md` and `docs/data_manifest.md`. Exact release versions of BAMPS, AMRFinderPlus, pyseer, BactDating and SkyGrowth should be recorded in the manuscript and release metadata.
+See `docs/workflow.md`, `docs/data_manifest.md`, `FIGURE_PROVENANCE.md` and `software_versions.tsv`. Exact release versions of BAMPS, AMRFinderPlus, pyseer, BactDating and SkyGrowth should be recorded in the manuscript and release metadata.
 
 ## Licence
 
 GPL-3.0.
+
+## Manuscript-era modelling snapshots
+
+`scripts/model/` intentionally retains the project versions of modelling scripts used during manuscript development. These may overlap with BAMPS. They are preserved here for analysis provenance; new/general development should occur in BAMPS rather than by independently extending these copies.
+
+See `FIGURE_PROVENANCE.md` and `software_versions.tsv` for the remaining release-lock items.
