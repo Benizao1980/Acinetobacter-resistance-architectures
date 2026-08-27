@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript and this archived analysis release."
+title: "Reproducible analysis for Acinetobacter baumannii carbapenem Resistance Architectures"
+type: software
+authors:
+  - family-names: Pascoe
+    given-names: Ben
+  - family-names: Mourkas
+    given-names: Evangelos
+  - family-names: Sheppard
+    given-names: Samuel K.
+version: 0.1.0
+date-released: 2026-08-26
+license: GPL-3.0-only
